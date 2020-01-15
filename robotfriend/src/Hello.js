@@ -7,7 +7,7 @@ class Hello extends Component{
     <div className="Hello">
       <header className="hello2">
         
-        <h1>Hello</h1>
+        <h1>{this.props.bunbum}</h1>
       </header>
     </div>
   );
