@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
-
+import Hello from './Hello';
 import './App.css';
 
-class App extends React.Component{
+class App extends Component{
   render(){
     return (
     <div className="App">
       <header className="App-header">
         
         <h1>Cristiane Abreu</h1>
+        <h2> More info Click Here{Hello}</h2>
       </header>
     </div>
   );

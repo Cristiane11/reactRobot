@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import './App.css';
+import './Hello.css';
 
-class Hello extends React.Component{
+class Hello extends Component{
   render(){
     return (
     <div className="Hello">
