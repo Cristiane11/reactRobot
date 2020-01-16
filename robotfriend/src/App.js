@@ -7,10 +7,9 @@ class App extends Component{
     return (
     <div className="App">
       <header className="App-header">
-        
-        <h1 className = "f1 tc">Cristiane Abreu</h1>
-        <h2> More info Click Here{Hello}</h2>
+        <h1 className = "f1 tc">Cristiane Abreu</h1> 
       </header>
+      
     </div>
   );
   }
