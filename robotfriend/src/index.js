@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+//import App from './App';
 import 'tachyons';
+import Hello from './Hello';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(<Hello bunbum={`Tatu bota ovo mae???`}/>, document.getElementById('root'));
