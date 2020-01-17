@@ -1,10 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-//import App from './App';
-import './FunctionComponent';
 import 'tachyons';
-import Hello from './Hello';
 import Card from './Card';
 
 import * as serviceWorker from './serviceWorker';
