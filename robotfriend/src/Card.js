@@ -4,14 +4,15 @@ import './Card.css';
 
 
 
-const Card = () =>{
+const Card = (props) =>{
+    const {name,email,id} = props
     return(
         <div id="cardComponent">
         <div className=' mw5 center bg-light-pink br3 pa3 pa4-ns mv3 ba b--black-10 grow shadow-5'>
-            <img alt =" robotPhoto"src='https://robohash.org/cristiane' className='br-100 h4 w4 dib ba b--black-05 pa2'/>
+            <img alt =" robotPhoto"src={`https://robohash.org/${id}`} className='br-100 h4 w4 dib ba b--black-05 pa2'/>
             <div>
-                <h2 className="f3 mb2">Jane Doe</h2>
-                <p className="f5 fw4 gray mt0">jane.doe@gmail.com</p>
+    <h2 className="f3 mb2">{name}</h2>
+                <p className="f5 fw4 gray mt0">{email}</p>
             </div>
         </div>
         </div>
