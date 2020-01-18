@@ -4,8 +4,8 @@ import './Card.css';
 
 
 
-const Card = (props) =>{
-    const {name,email,id} = props
+const Card = ({name,email,id}) =>{
+   
     return(
         <div id="cardComponent">
         <div className=' mw5 center bg-light-pink br3 pa3 pa4-ns mv3 ba b--black-10 grow shadow-5'>
